@@ -29,6 +29,19 @@ function displayResults (weather) {
 let now = new Date();
 let date = document.querySelector('.location .date');
 date.innerText = dateBuilder(now);
+
+
+// Temparature
+
+let temp = document.querySelector('.current .temp');
+temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
+
+
+let weather_el = document.querySelector('.current .weather');
+weather_el.innerText = weather.weather[0].main;
+let hilow = document.querySelector('.hi-low');
+hilow.innerText = `${weather.main.temp_min}°c / ${weather.main.temp_max}°c`;
+
 }
 
 function dateBuilder (d) {
