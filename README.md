@@ -8,6 +8,6 @@
 #### Using the Modern Javascript Fetch API ;
 
 #### Project Can be found in here :
- **[Live version](https://rawcdn.githack.com/codershona/Quiz-App-OOP/a5fe02265c5d24fb566ba9dd9b4d2071e5df3587/index.html)**
+ **[Live version](https://rawcdn.githack.com/codershona/weather-app-modern-javascript/6fae7bb9df5a4685c4d4ef26fa78cfc08377cce4/index.html)**
 
 ### Builded by Falguni Islam(Software developer)
