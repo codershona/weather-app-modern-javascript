@@ -34,7 +34,7 @@ date.innerText = dateBuilder(now);
 // Temparature
 
 let temp = document.querySelector('.current .temp');
-temp.innerHTML = `${Math.round(weather.main.temp).toFixed(0)}<span>°c</span>`;
+temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
 
 
 let weather_el = document.querySelector('.current .weather');
